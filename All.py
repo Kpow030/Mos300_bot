@@ -13,9 +13,9 @@ from telegram import Bot
 from telebot import types
 
 
-bot = telebot.TeleBot("6893353592:AAG8dSF_1fxDpPYmuDm7XIVt9PSkGF61gUc")
+bot = telebot.TeleBot("TOKEN")
 
-TOKEN = "6893353592:AAG8dSF_1fxDpPYmuDm7XIVt9PSkGF61gUc"
+TOKEN = "TOKEN"
 
 links = ['https://moscowzoo.ru/animals/sokoloobraznye/grif/?sphrase_id=737599',
         'https://moscowzoo.ru/animals/popugaeobraznye/malyy-soldatskiy-ara/?sphrase_id=737595',
@@ -51,7 +51,6 @@ registered_users = {}
 
 def send_quiz_success_message(user_id):
     message = f"Пользователь с id {user_id} успешно прошел викторину"
-    # Замените 'CHAT_ID' на id чата с сотрудником зоопарка
     bot.send_message(chat_id=1932614138, text=message)
 
 
