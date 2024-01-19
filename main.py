@@ -12,9 +12,9 @@ from All import (open_random_link, send_post, generate_share_links, handle_messa
 
 
 
-bot = telebot.TeleBot("6893353592:AAG8dSF_1fxDpPYmuDm7XIVt9PSkGF61gUc")
+bot = telebot.TeleBot("token")
 
-TOKEN = "6893353592:AAG8dSF_1fxDpPYmuDm7XIVt9PSkGF61gUc"
+TOKEN = "Token"
 
 logging.basicConfig(filename='bot_errors.log', level=logging.ERROR)
 
